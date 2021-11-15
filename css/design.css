@@ -77,13 +77,22 @@ header .container, main .container {
 	position: relative;
 	max-width: 1120px;
 }
-.check-circle {
-	/*margin-left: 6rem;*/
+.check-circle, .check-square {
 	font-weight: 700;
 }
 .check-circle li::before {
 	position: absolute;
 	content: '\f058';
+	font-family: 'Font Awesome 5 Free';
+	font-size: 1.25rem;
+	font-weight: 900;
+	left: -2.5rem;
+	top: -3px;
+	color: var(--primary);
+}
+.check-square li::before {
+	position: absolute;
+	content: '\f14a';
 	font-family: 'Font Awesome 5 Free';
 	font-size: 1.25rem;
 	font-weight: 900;
