@@ -2,11 +2,11 @@
 * 覆蓋 Bootstrap 預設樣式
 ************************************************************/
 :root {
-	--primary: #c60013;
+	--primary: #c50013;
 	--primary-darken: #93000e;
 	--primary-lighten: #e00015;
-	--primary-normal-font: 'Shin Go Regular';
-	--primary-bold-font: 'Shin Go DeBold';
+	--primary-normal-font: "Noto Sans Japanese";
+	--primary-bold-font: "Noto Sans Japanese";
 }
 
 .bg-primary {
@@ -39,6 +39,10 @@
 	border-width: 2px !important;
 }
 
+.modal-content {
+	border-bottom: 5px solid var(--primary);
+}
+
 /************************************************************
 * 自定樣式
 ************************************************************/
@@ -56,10 +60,6 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	font-family:  var(--primary-bold-font);
 	font-weight: 900;
-}
-
-h1 {
-	text-shadow: 0px 2px 4px #666;
 }
 
 h3 {
@@ -111,6 +111,10 @@ li:first-child {
 
 main section.alt, .bg-alt {
 	background: #f0eeeb;
+}
+
+.bg-alt-lighten {
+	background: #f6f5f1;
 }
 
 header .container, main .container {
@@ -218,6 +222,16 @@ td.active {
 	background: linear-gradient(45deg, #c69200, #f0eeeb, #c69200);
 }
 
+.badge-reason {
+	width: 150px;
+	height: 150px;
+}
+
+.badge-reason .number {
+	font-size: 4em;
+	line-height: 1em;
+}
+
 footer {
 	padding: 2% 0;
 	background: #fff;
@@ -300,7 +314,25 @@ footer p:last-child {
 	.qa p {
 		padding: 0;
 	}
+
+	#list .card {
+		padding: 1rem;
+	}
 	
+	.reason h3 {
+		font-size: 1.25rem;
+	}
+
+	.badge-reason {
+		width: 100px;
+		height: 100px;
+	}
+
+	.badge-reason .number {
+		font-size: 2em;
+		line-height: 1em;
+	}
+
 	footer {
 		padding-top: 7%;
 		padding-bottom: 7%;
@@ -322,6 +354,14 @@ footer p:last-child {
 	}
 
 	.countdown-container h3 {
-		font-size: 2rem;
+		font-size: 1.75rem;
+	}
+
+	.countdown-container h4 {
+		font-size: 1rem;
+	}
+
+	.countdown-container .price {
+		font-size: 1.75rem;
 	}
 }
