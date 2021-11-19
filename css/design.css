@@ -278,6 +278,10 @@ footer p:last-child {
 		font-weight: 900;
 		margin-bottom: 0;
 	}
+
+	li {
+		margin-top: 0.75rem;
+	}
 	
 	.color-circle {
 		width: 48px;
@@ -322,8 +326,12 @@ footer p:last-child {
 	#list .card {
 		padding: 1rem;
 	}
+
+	#list .card-header {
+		padding-bottom: 1rem;
+	}
 	
-	.reason h3 {
+	#taiken h3, .reason h3 {
 		font-size: 1.25rem;
 	}
 
@@ -335,6 +343,11 @@ footer p:last-child {
 	.badge-reason .number {
 		font-size: 2em;
 		line-height: 1em;
+	}
+
+	.speaker .card-header {
+		padding: 0;
+		padding-top: 1rem;
 	}
 
 	footer {
