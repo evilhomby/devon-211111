@@ -336,13 +336,17 @@ footer p:last-child {
 	}
 
 	.badge-reason {
-		width: 100px;
-		height: 100px;
+		width: 80px;
+		height: 80px;
 	}
 
 	.badge-reason .number {
-		font-size: 2em;
+		font-size: 1.5em;
 		line-height: 1em;
+	}
+
+	.reason-h3 {
+		font-size: 1rem !important;
 	}
 
 	.speaker .card-header {
