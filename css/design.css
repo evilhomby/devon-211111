@@ -76,6 +76,10 @@ h3 {
 	margin: 0;
 }
 
+th, td {
+	vertical-align: middle !important;
+}
+
 #taiken h3 {
 	font-size:  2rem;
 }
@@ -184,6 +188,10 @@ header .container, main .container {
 	/*padding: 2rem 0rem;*/
 }
 
+.text-warning {
+    color: #ffeb3b!important;
+}
+
 .color-circle {
 	display: block;
 	background: var(--primary);
@@ -290,6 +298,12 @@ footer p:last-child {
 		margin-top: 0.75rem;
 	}
 	
+	.check-circle.blue li::before {
+		font-size: 0.75rem;
+		top: 0px;
+		left: -2rem;
+	}
+
 	.color-circle {
 		width: 48px;
 		height: 48px;
